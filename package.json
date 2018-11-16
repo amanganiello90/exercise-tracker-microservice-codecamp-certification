@@ -1,5 +1,5 @@
 {
-  "name": "exercise-tracker",
+  "name": "exercise-tracker-microservice-codecamp-certification",
   "version": "1.0.0",
   "description": "Exercise Tracker FreeCodeCamp",
   "main": "server.js",
@@ -18,10 +18,6 @@
   },
   "engines": {
     "node": "6.9.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/breakpoint25/exercise-tracker.git"
   },
   "license": "MIT",
   "keywords": [
