@@ -8,8 +8,8 @@ const User = require('./models/user');
 const Exercise = require('./models/exercise');
 
 const app = express();
-const port = process.env.PORT;
-const mongoDB = process.env.MLAB_URI;
+const port = process.env.PORT || 3000;
+const mongoDB = process.env.MONGOLAB_URI
 
 mongoose.connect(mongoDB);
 const db = mongoose.connection;
